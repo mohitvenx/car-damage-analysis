@@ -1,0 +1,26 @@
+									    iNUBE SOFTWARE SOLOUTIONS PRIVATE LIMITED 
+									          SUMMER INTERNSHIP JUNE-AUGUST 2022
+																	- MOHIT VENKATESH 
+																	   PES UNIVERSITY 
+
+AIML MODEL FOR CAR DAMAGE DETECTION FOR MOTOR CLAIMS SOLUTIONS-
+
+1.	The files for running the product for damage detcetion are stored in the folder "damaged_cars" located at  "C:\Users\Admin\OneDrive\Desktop\damaged_cars"
+2.	There are 3 html static pages saved inside a folder called templates. 
+3.	The model weights for identifying if the image is car, if the car is damaged, detecting the location and severity of damage are stored in the folder called "h5_files".
+	The weights obtained after training the custom tensorflow model for bounding boxes around the  damaged area are stored in the folder called "pb_files".
+4. 	The file "product.py" has the final model for the damage detcetion and "damagearea_bbox.py" has the final object
+	detection model. 
+5.	The "app.py" file has flask code that is used to integrate the web pages with ML model. 
+6.	The GET & POST responses are successfully tested using "Postman"
+7.	Dockerfile is created to create an image and then export the container to run the application 
+	on Asure. 
+8. 	damagearea_bbox.py , product.py and app.py are the files needed to run the application 
+9.	Folder file_input saves the image entered by the user. Folder area-bbox-test saves the 
+	image after bounding box has been drawn around the damaged area.
+10.	requirements.txt contains all the libraries needed for the product to run smoothly.
+11.	Folder object_detection is needed for the bounding box prediction program. 
+
+
+
+Guide: Vikram Nagarajan - Executive Director iNUBE 
