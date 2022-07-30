@@ -1,7 +1,7 @@
-									    iNUBE SOFTWARE SOLOUTIONS PRIVATE LIMITED 
-									          SUMMER INTERNSHIP JUNE-AUGUST 2022
-																	- MOHIT VENKATESH 
-																	   PES UNIVERSITY 
+							 iNUBE SOFTWARE SOLOUTIONS PRIVATE LIMITED 
+							    SUMMER INTERNSHIP JUNE-AUGUST 2022
+												- MOHIT VENKATESH 
+										                  PES UNIVERSITY 
 
 AIML MODEL FOR CAR DAMAGE DETECTION FOR MOTOR CLAIMS SOLUTIONS-
 
@@ -22,5 +22,4 @@ AIML MODEL FOR CAR DAMAGE DETECTION FOR MOTOR CLAIMS SOLUTIONS-
 11.	Folder object_detection is needed for the bounding box prediction program. 
 
 
-
-Guide: Vikram Nagarajan - Executive Director iNUBE 
+After cloning or downloading the repository to the laptop, run "app.py" file for the product to run. 
