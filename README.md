@@ -1,6 +1,6 @@
 # Car-Damage-Analysis
 
-**SUMMER INTERNSHIP FROM JUNE-AUGUST 2022 AT iNUBE SOFTWARE SOLUTIONS PRIVATE LIMITED**
+   *SUMMER INTERNSHIP FROM JUNE-AUGUST 2022 AT iNUBE SOFTWARE SOLUTIONS PRIVATE LIMITED*
 
 ![image](https://user-images.githubusercontent.com/79797947/181878018-a0c08a00-2bf4-4a14-af80-520cba50f208.png)   
 
@@ -32,29 +32,8 @@ The following model used has been shown as a pipeline in the image shown below.
 The dataset I have used has been annotated using Roboflow, a tool that helps us draw bouding boxes around the required area and this is then fed to the model we create which can then predict damage or scratch and draw bounding boxes around the same. 
 
 
-*FOR BOUNDING BOX AROUND THE DAMAGED AREA*
 
-**About**
-
-I have trained a Faster R-CNN neural network. Faster R-CNN is a two-stage detector: first it identifies regions of interest, and then passes these regions to a convolutional neural network. The outputted features maps are passed to a support vector machine (SVM) for classification. Regression between predicted bounding boxes and ground truth bounding boxes are computed.
-
-**Our data**
-
-The data I have used for this project is a damaged cars dataset where the model will be detecting the damage present on vehicles which are put for insurance claims. I have split the dataset creating two datasets in Roboflow: train and test. Roboflow is used to generate TFRecords for each and train our own custom dataset.
-
-**Training**
-
-The model is trained on Google Golab Notebooks. Google Colab provides free GPU resources. Click "Runtime" → "Change runtime type" → Hardware Accelerator dropdown to "GPU" and save this to default. Colab does have memory limitations, and notebooks must be open in your browser to run. Sessions automatically clear themselves after 12 hours.
-
-**Post testing**
-
-1. After testing the model with our images if results are satisfying we can go to the next step in which we use the weights we downloaded onto gdrive or laptop and write a function with these weights being called to predict bbox ariound the damaged area.(this is toi achieve quick outputs and saves us the trouble of re-running the entire model everytime) 
-2. If we are unhappy with the results being shown, we add more images onto roboflow and annotate them and repeat the entire process till we achieve required mAP and prediction percentage. 
-
-
-
-
-*RESULTS OF THE FINAL PRODUCT*
+**RESULTS OF THE FINAL PRODUCT**
 
 •	On vehicle and damage detection the model has achieved a 91% accuracy and 
 
