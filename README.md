@@ -11,7 +11,9 @@ This product is an example of the application of Deep Learning and Computer Visi
 •	The given image is that of a car and 
 
 •	then ensure that it is in fact damaged. 
+
 These are the gate checks before the analysis begins. Once these gate checks have been validated, the damage check will commence. The AI / ML model will then predict the location of the damage as in the front, side or rear of the vehicle and the severity of such a damage as in minor, moderate or severe damage. 
+
 The objective of building this product is 
 
 •	to detect damages from minor scratches to severe damage in vehicles using images taken at the scene of the accident. 
@@ -60,4 +62,19 @@ The model is trained on Google Golab Notebooks. Google Colab provides free GPU r
 
 •	For detecting the damage and displaying it with a bounding box, the model shows an accuracy of 95.8%. This is an encouraging mark obtained with a dataset of about 8000 images. 
 
+![image](https://user-images.githubusercontent.com/79797947/182276507-bfbc479e-2107-4253-9102-90c57db811ac.png)
+
+
 With a larger dataset for training the model, the results would be higher and place this product on accuracy levels better than trained human beings. Even though the model for predicting bounding boxes around the damaged area is highly accurate, after integration of all the models making a pipeline, the final product has an accuracy of 90%. 
+
+
+
+**Current Restrictions in the Model**
+
+There are a couple of restrictions for the model  
+
+•	the image size must be below 10MB (taken in a 12 MP or 16 MP mode)  
+
+•	for damages located at different regions the user has to input different images with each image covering one region of the car for accurate detection.
+
+•	Incase of damage to 2 or more areas, the bounding box identifies the damage across the 2 or more areas 
