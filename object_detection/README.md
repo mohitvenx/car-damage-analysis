@@ -220,13 +220,3 @@ issue name with "object_detection".
 Please check the [FAQ](g3doc/faq.md) for frequently asked questions before
 reporting an issue.
 
-## Maintainers
-
-* Jonathan Huang ([@GitHub jch1](https://github.com/jch1))
-* Vivek Rathod ([@GitHub tombstone](https://github.com/tombstone))
-* Vighnesh Birodkar ([@GitHub vighneshbirodkar](https://github.com/vighneshbirodkar))
-* Austin Myers ([@GitHub austin-myers](https://github.com/austin-myers))
-* Zhichao Lu ([@GitHub pkulzc](https://github.com/pkulzc))
-* Ronny Votel ([@GitHub ronnyvotel](https://github.com/ronnyvotel))
-* Yu-hui Chen ([@GitHub yuhuichen1015](https://github.com/yuhuichen1015))
-* Derek Chow  ([@GitHub derekjchow](https://github.com/derekjchow))
