@@ -89,8 +89,7 @@ notebook==6.4.12
 notebook-shim==0.1.0
 numpy==1.22.4
 oauthlib==3.2.0
-opencv-python==4.6.0.66
-opencv-python
+opencv-contrib-python-headless
 opt-einsum==3.3.0
 outcome==1.1.0
 packaging==21.3
