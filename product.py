@@ -34,13 +34,11 @@ from damagearea_bbox import bounding_box
 
 
 
-
-
 model1 = VGG16(weights = 'imagenet')
-model2 = load_model("C:/Users/Admin/OneDrive/Desktop/damaged_cars/h5_files/ft_model_data1a.h5")
-model3 = load_model("C:/Users/Admin/OneDrive/Desktop/damaged_cars/h5_files/ft_model_data2a.h5")
-model4 = load_model("C:/Users/Admin/OneDrive/Desktop/damaged_cars/h5_files/ft_model_data3a.h5")
-with open("C:/Users/Admin/OneDrive/Desktop/damaged_cars/h5_files/vgg16_cat_list.pk", 'rb') as f:
+model2 = load_model("./h5_files/ft_model_data1a.h5")
+model3 = load_model("./h5_files/ft_model_data2a.h5")
+model4 = load_model("./h5_files/ft_model_data3a.h5")
+with open("./h5_files/vgg16_cat_list.pk", 'rb') as f:
     cat_list = pk.load(f)
 
 CLASS_INDEX = None
